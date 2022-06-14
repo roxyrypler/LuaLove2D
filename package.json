@@ -1,0 +1,20 @@
+{
+  "name": "lualove2d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "C:/LOVE/love.exe ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roxyrypler/LuaLove2D.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roxyrypler/LuaLove2D/issues"
+  },
+  "homepage": "https://github.com/roxyrypler/LuaLove2D#readme"
+}
