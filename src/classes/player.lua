@@ -7,7 +7,7 @@ function Player.new(x, y)
     instance.x = x
     instance.y = y
     instance.image = love.graphics.newImage( "src/assets/player.png" )
-    instance.body = world:newRectangleCollider(100, 100, 80, 120)
+    instance.body = world:newRectangleCollider(x, y, 80, 120)
     instance.px = x
     instance.py = y
     instance.movementSpeed = 50000
@@ -47,7 +47,5 @@ function Player:draw()
     love.graphics.draw(self.image, self.px - 40, self.py - 60, 0, 0.1, 0.1)
 end
 
-function Player:Move()
-end
 
 return Player
